@@ -1,0 +1,68 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    background-color: #FDFDFD;
+  }
+  
+  div, input, a, textarea, ul, li {
+    box-sizing: border-box;
+  
+  }
+  button{
+    background-color:#dc3545;
+      border: none;
+      border-radius: 5px !important;
+      color: white;
+      padding: 5px 5px 5px 5px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 14px;
+      margin: 10px 4px 4px 4px;
+      cursor: pointer;
+  }
+  
+  #reviews {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #EEE;
+    border-radius: 2px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.1),0 1px 4px rgba(0,0,0,.1);
+    background-color: #fff;
+    min-height: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #reviews li {
+    padding: 10px;
+    border: 1px solid #EEE;
+    border-bottom: none;
+    border-radius: 2px;
+    background-color: #fff;
+  }
+  
+  input[type="text"],
+  textarea {
+    border: 1px solid #EEE;
+    display: block;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 1px 6px rgba(0,0,0,.1),0 1px 4px rgba(0,0,0,.1);
+  }
+  
+  
+  .header {
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+  
+  .header img {
+    border-radius: 50%;
+    box-shadow: 0 1px 1px rgba(0,0,0,.1),0 1px 1px rgba(0,0,0,.1);
+  }
+  
